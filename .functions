@@ -1,5 +1,0 @@
-function mergepdf(){
-    echo ok
-    args=$@
-    echo "${args[@]}"
-}

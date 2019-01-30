@@ -7,3 +7,7 @@ fi
 
 alias ls="ls ${colorflag}"
 alias ll="ls -lrt"
+
+alias roosh="docker run --rm -it -v $PWD:$PWD -w $PWD rootproject/root-centos bash"
+
+alias dkhere="docker run --rm -it -v $PWD:$PWD -w $PWD"

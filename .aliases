@@ -11,3 +11,4 @@ alias ll="ls -lrt"
 alias roosh="docker run --rm -it -v $PWD:$PWD -w $PWD rootproject/root-centos bash"
 
 alias dkhere="docker run --rm -it -v $PWD:$PWD -w $PWD"
+alias k='kubectl'
